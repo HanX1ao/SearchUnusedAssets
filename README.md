@@ -1,4 +1,5 @@
 # SearchUnusedAssets
+# SwiftGen Unused
 
 帮助你查找工程中未被使用的 SwiftGen 生成的静态资源，及时清理。
 
