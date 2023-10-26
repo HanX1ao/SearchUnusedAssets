@@ -20,3 +20,14 @@ let filePath = "./Demo/Assets/Sources/Generated/Assets.generated.swift"
 ```shell
 swift run --package-path ./Tools/SearchUnusedAssets
 ```
+
+如果工程较大，等待的时间可能比较长，检测过程中会输出
+
+```shell
+Building for debugging...
+[3/3] Linking SearchUnusedAssets
+Build complete! (3.64s)
+assets icon1 unused // 检测某个资源未使用
+assets icon2 unused // 检测某个资源未使用
+🚀 check complete!  // 代表检测完成
+```
